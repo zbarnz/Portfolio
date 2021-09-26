@@ -1,0 +1,14 @@
+.body{
+  background-color: #202324;
+  width: 100vw;
+  height: 100vh;
+}
+
+.socialBar{
+  background-color: #373c3d;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 10vh;
+}
+

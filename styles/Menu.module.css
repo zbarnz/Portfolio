@@ -1,0 +1,35 @@
+.navContainer{
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navContainer h3 {
+  padding-left: 10px;
+  color: #9da9ac;
+}
+
+.navContainer b {
+  color: #9da9ac;
+  background-color: #373c3d;
+  padding: 5px 5px 5px 5px;
+}
+
+.menuButtonContainer {
+  width: 35px;
+  opacity: 50%;
+  height: 35px;
+  right: 35px;
+  top: 25px;
+  padding-right: 50px;
+}
+
+.menuButtonContainer:hover {
+  opacity: 100%;
+}
+
+.menuButton {
+
+}
