@@ -1,14 +1,19 @@
 .body{
-  background-color: #202324;
-  width: 100vw;
-  height: 100vh;
+  background-color: var(--background);
+  width: 100%;
+  height: 100%;
 }
 
-.socialBar{
-  background-color: #373c3d;
+.menuPressedContainer {
+  left: 0;
+  top: 0;
+  width: 100%;
+  min-height: 100%;
+  backdrop-filter: blur(6px);
+  transform: scale(1.1);
+  overflow: hidden;
   position: absolute;
-  bottom: 0;
-  width: 100vw;
-  height: 10vh;
+  z-index: 2;
+  margin: auto;
 }
 

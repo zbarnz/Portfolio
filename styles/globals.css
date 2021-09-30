@@ -13,3 +13,10 @@ a {
 * {
   box-sizing: border-box;
 }
+
+:root {
+  --background: #202324;
+  --secondary: #373c3d;
+  --text: #9da9ac;
+  --textSecondary: #30363a;
+}

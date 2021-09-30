@@ -1,14 +1,20 @@
 import React from "react";
 import styles from "../styles/Layout.module.css";
-import Menu from "./Menu";
+import Menu from "./Nav";
+import SocialBar from "./SocialBar";
 
-const Layout = () => {
+const Layout = ({ children }) => {
   return (
     <div className={styles.body}>
       <Menu />
-      <div className={styles.socialBar}>
-
-      </div>
+      <main>{children}</main>
+      {/* <div className={styles.menuPressedContainer}>
+        <ul>
+          <li>Home</li>
+          <li>About Me</li>
+        </ul>
+      </div> */}
+      <SocialBar />
     </div>
   );
 };

@@ -1,2 +1,36 @@
-.container{
+.headerContainer {
+  width: 50%;
+  min-width: 500px;
+  height: 200px;
+  margin-left: 50px;
+  margin-top: 100px;
+  justify-content: center;
+  animation: fadeIn ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  margin-bottom: 2rem;
+
+}
+
+.headerContainer h1 {
+  width: 500px;
+  color: var(--text);
+  font-size: xxx-large;
+}
+
+.headerContainer h2 {
+  font-size: medium;
+  border-top: 1px solid var(--secondary);
+  padding-top: 2rem;
+  color: var(--textSecondary);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%);
+  }
+  100% {
+    opacity: 1;
+  }
 }
