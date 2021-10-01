@@ -9,3 +9,7 @@
   color: var(--text);
   cursor: pointer;
 }
+
+.iconCircle:hover {
+  opacity: 50%;
+}

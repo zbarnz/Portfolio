@@ -36,17 +36,3 @@
     opacity: 1;
   }
 }
-
-.menuButtonContainer {
-  width: 35px;
-  opacity: 50%;
-  height: 35px;
-  right: 35px;
-  top: 25px;
-  padding-right: 50px;
-}
-
-.menuButtonContainer:hover {
-  cursor: pointer;
-  opacity: 100%;
-}

@@ -21,16 +21,12 @@
   align-items: center;
 }
 
-.entryContainer span {
-  background-color: var(--secondary);
-  border-radius: 50%;
-  width: 3em;
-  height: 3em;
+.entryContainer2 {
+  width: 80%;
+  height: 4em;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--text);
-  cursor: pointer;
 }
 
 .entryContainer div {
@@ -45,17 +41,18 @@
 }
 
 .linkUnderline {
-  text-decoration: underline dotted;
+  border-bottom: 1px dotted var(--text);
 }
 
 .linkUnderline:hover {
-  text-decoration: none;
+  border-bottom: 0;
   opacity: 50%;
 }
 
 .socialMediaContainer {
   width: 50%;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border-left: 0.1em solid var(--secondary);
 }

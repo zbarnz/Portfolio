@@ -1,18 +1,27 @@
 import React from "react";
 import styles from "../styles/IconCircle.module.css";
 import PropTypes from "prop-types";
+import Link from "next/link";
+import { LaptopWindowsTwoTone } from "@material-ui/icons";
 
-const IconCircle = ({ icon }) => {
+const IconCircle = ({ icon, href }) => {
 
   return (
-    <span className={styles.IconCircle}>
-      {icon}
-    </span>
+    <a href={href}>
+      <span className={styles.iconCircle}>
+        {icon}
+      </span>
+    </a>
   );
 };
 
 IconCircle.propTypes = {
   icon: PropTypes.element,
+  href: PropTypes.string
+};
+
+IconCircle.defaultProps = {
+  href: "",
 };
 
 export default IconCircle;
