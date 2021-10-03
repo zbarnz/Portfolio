@@ -43,6 +43,7 @@
     "space-before-blocks": [ "error", "always" ],
     "space-before-function-paren": [ "error", "never" ],
     "react/react-in-jsx-scope": "off",
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "no-unused-vars": [0]
   }
 }

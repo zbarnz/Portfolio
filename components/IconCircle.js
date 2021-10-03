@@ -1,8 +1,6 @@
 import React from "react";
 import styles from "../styles/IconCircle.module.css";
 import PropTypes from "prop-types";
-import Link from "next/link";
-import { LaptopWindowsTwoTone } from "@material-ui/icons";
 
 const IconCircle = ({ icon, href }) => {
 

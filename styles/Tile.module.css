@@ -8,13 +8,10 @@
   flex-direction: column;
   height: 40vh;
   overflow: hidden;
-  position: relative;
   border: solid 0px var(--background);
   width: 40%;
   padding: 4em 4em 2em 4em ;
-  box-sizing: border-box;
   transition: border-width 0.2s linear;
-  backdrop-filter: blur(5px);
 }
 
 .tile:hover{
