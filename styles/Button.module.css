@@ -1,0 +1,84 @@
+.btn {
+  border: none;
+  padding: 0.5em 1.2em;
+  min-height: 32px;
+  min-width: 96px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+  transition: background 0.2s ease;
+}
+/* sizes */
+.xl {
+  font-size: 24px;
+}
+
+.large {
+  font-size: 20px;
+}
+
+.medium {
+  font-size: 16px;
+}
+
+.small {
+  font-size: 12px;
+}
+/* varients */
+
+.danger {
+  background-color: var(--danger);
+  border: 1px solid var(--danger);
+  color: white;
+}
+
+.danger:hover {
+  background-color: #df140598;
+}
+
+.primary {
+  background-color: #10a00b;
+  border: 1px solid #10a00b;
+  color: var(--textSecondary);
+}
+
+.primary:hover {
+  opacity: 50%;
+}
+
+.secondary {
+  background-color: inherit;
+  color: var(--text);
+  border: 2px solid var(--secondary);
+}
+
+.secondary:hover {
+  opacity: 50%;
+}
+
+.disabled {
+  background-color: white;
+  color: var(--background);
+  border: 1px solid var(--background);
+  cursor: default;
+}
+
+/* stretch */
+.stretchMedium {
+  width: 70%;
+}
+
+.stretchWide {
+  width: 90%;
+}
+
+.iconContainer {
+  margin-right: 5px;
+}
