@@ -84,12 +84,12 @@ const ProjectPage = ({
             <p>{tech}</p>
           </article>
         </section>
-        <Link href={git}>
+        <a href={git} target="_blank" rel="noopener noreferrer">
           <Button varient="secondary" text="GitHub" stretch="wide"/>
-        </Link>
-        <Link href={live}>
+        </a>
+        <a href={live} target="_blank" rel="noopener noreferrer">
           <Button varient={isLive} text="Live Version" stretch="wide"/>
-        </Link>
+        </a>
       </div>
       <div className={styles.descriptionContainer}>
         <h1>Description: </h1>

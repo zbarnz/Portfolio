@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 const IconCircle = ({ icon, href }) => {
 
   return (
-    <a href={href}>
+    <a href={href} target="_blank" rel="noopener noreferrer">
       <span className={styles.iconCircle}>
         {icon}
       </span>

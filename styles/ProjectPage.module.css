@@ -57,6 +57,10 @@
   margin-bottom: 0.5em;
 }
 
+.infoContainer a {
+  width: 100%;
+}
+
 .infoContainer Button {
   max-width: 750px;
 }
