@@ -1,7 +1,7 @@
 import ProjectPage from "../../components/ProjectPage";
-import coinOne from "../../public/images/socoin/socoin1.png";
-import coinTwo from "../../public/images/socoin/socoin2.jpg";
-import coinThree from "../../public/images/socoin/socoin3.jpg";
+import coinOne from "../../public/images/soCoin/socoin1.png";
+import coinTwo from "../../public/images/soCoin/socoin2.jpg";
+import coinThree from "../../public/images/soCoin/socoin3.jpg";
 
 export default function snake() {
   return (
