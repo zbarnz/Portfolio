@@ -39,19 +39,34 @@ const ProjectPage = ({
   return (
     <div className={styles.body}>
       <div className={styles.infoContainer}>
-        <section className={styles.carouselContainer} style={{ boxShadow: "5px 5px 5px #000" }}>
+        <section
+          className={styles.carouselContainer}
+          style={{ boxShadow: "5px 5px 5px #000" }}
+        >
           <Carousel showThumbs={false}>
             <div>
               <Image src={img1} layout="fill"/>
-              <p className="legend" style={{ backgroundColor: "var(--background)" }}>{cap1}</p>
+              <p
+                className="legend"
+                style={{ backgroundColor: "var(--background)" }}
+              >
+                {cap1}</p>
             </ div>
             <div>
               <Image src={img2} layout="fill"/>
-              <p className="legend" style={{ backgroundColor: "var(--background)" }}>{cap2}</p>
+              <p
+                className="legend"
+                style={{ backgroundColor: "var(--background)" }}
+              >
+                {cap2}</p>
             </ div>
             <div>
               <Image src={img3} />
-              <p className="legend" style={{ backgroundColor: "var(--background)" }}>{cap3}</p>
+              <p
+                className="legend"
+                style={{ backgroundColor: "var(--background)" }}
+              >
+                {cap3}</p>
             </ div>
           </ Carousel>
         </section>

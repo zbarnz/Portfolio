@@ -14,7 +14,8 @@ export default function agenda() {
       cap3="Login"
       name="Agenda"
       author="Zach Barnes, Tom Hudson, David Oligney"
-      tech="Next.js/React, Docker, Express, Axios, Mocha, Mongoose, MongoDB, Docker"
+      tech="Next.js/React, Docker, Express, Axios, Mocha,
+       Mongoose, MongoDB, Docker"
       git="https://github.com/SocexSolutions/agenda-v2"
       live="#"
       isLive={false}

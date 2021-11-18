@@ -32,6 +32,7 @@
     "no-trailing-spaces": [ "error" ],
     "semi-spacing": [ "error", { "before": false, "after": true } ],
     "no-spaced-func": [ "error" ],
+    "react/prop-types": 0,
     "key-spacing": [ "error",
       {
         "beforeColon" : false,
