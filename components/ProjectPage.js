@@ -4,24 +4,49 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import Button from "./Button";
 import Image from "next/image";
+import Link from "next/link";
 
 import agendaOne from "../public/images/agenda/agenda1.png";
 import agendaTwo from "../public/images/agenda/agenda2.png";
 import agendaThree from "../public/images/agenda/agenda3.png";
 
 
-const ProjectPage = ({ name, author, tech, img1, cap1, img2, cap2, img3, cap3, git, live, desc }) => {
+const ProjectPage = ({
+  name,
+  author,
+  tech,
+  img1,
+  cap1,
+  img2,
+  cap2,
+  img3,
+  cap3,
+  git,
+  live,
+  isLive,
+  desc
+}) => {
+
+
+  switch( isLive ) {
+  case true:
+    isLive = "primary";
+    break;
+  case false:
+    isLive = "disabled";
+  }
+
   return (
     <div className={styles.body}>
       <div className={styles.infoContainer}>
         <section className={styles.carouselContainer} style={{ boxShadow: "5px 5px 5px #000" }}>
-          <Carousel style={{ boxShadow: "5px 5px 5px #ffff" }}>
+          <Carousel showThumbs={false}>
             <div>
-              <Image src={img1} />
+              <Image src={img1} layout="fill"/>
               <p className="legend" style={{ backgroundColor: "var(--background)" }}>{cap1}</p>
             </ div>
             <div>
-              <Image src={img2} />
+              <Image src={img2} layout="fill"/>
               <p className="legend" style={{ backgroundColor: "var(--background)" }}>{cap2}</p>
             </ div>
             <div>
@@ -43,9 +68,13 @@ const ProjectPage = ({ name, author, tech, img1, cap1, img2, cap2, img3, cap3, g
             <h1>Technologies Used:</h1>
             <p>{tech}</p>
           </article>
-          <Button varient="secondary" text="GitHub" stretch="wide" onClick={git}/>
-          <Button text="Live Version" stretch="wide" onClick={live}/>
         </section>
+        <Link href={git}>
+          <Button varient="secondary" text="GitHub" stretch="wide"/>
+        </Link>
+        <Link href={live}>
+          <Button varient={isLive} text="Live Version" stretch="wide"/>
+        </Link>
       </div>
       <div className={styles.descriptionContainer}>
         <h1>Description: </h1>
@@ -67,7 +96,8 @@ ProjectPage.propTypes = {
   tech: PropTypes.string,
   desc: PropTypes.string,
   git: PropTypes.string,
-  live: PropTypes.string
+  live: PropTypes.string,
+  isLive: PropTypes.bool
 };
 
 ProjectPage.defaultProps = {

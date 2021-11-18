@@ -64,10 +64,10 @@
 }
 
 .disabled {
-  background-color: white;
+  background-color: var(--secondary);
   color: var(--background);
   border: 1px solid var(--background);
-  cursor: default;
+  cursor: not-allowed;
 }
 
 /* stretch */

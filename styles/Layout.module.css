@@ -1,7 +1,5 @@
 .body{
   background-color: var(--background);
-  width: 100%;
-  height: 100%;
 }
 
 .menuPressedContainer {
