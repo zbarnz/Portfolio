@@ -12,13 +12,13 @@ const SocialBar = () => {
       <div className={styles.contactContainer}>
         <div className={styles.entryContainer}>
           <IconCircle
-            href="mailto:zachbarnes@socnet.org"
+            href="mailto:zbarnz@yahoo.com"
             icon={<EmailIcon />}
           />
           <div>
             <h1>Email:</h1>
-            <Link href="mailto:zachbarnes@socnet.org">
-              <a className={styles.linkUnderline}>zachbarnes@socnet.org</a>
+            <Link href="mailto:zbarnz@yahoo.com">
+              <a className={styles.linkUnderline}>zbarnz@yahoo.com</a>
             </Link>
           </div>
         </div>
