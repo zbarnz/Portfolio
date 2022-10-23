@@ -12,22 +12,22 @@ const Tile = () => {
           <h2>A meeting app for professionals</h2>
         </article>
       </ Link>
+      <Link href="/projects/bca">
+        <article className={styles.tile}>
+          <h1>Bentley Consulting Association</h1>
+          <h2>Bentley Consulting Association&apos;s website.</h2>
+        </article>
+      </ Link>
       <Link href="/projects/socoin">
         <article className={styles.tile}>
           <h1>SoCoin</h1>
           <h2>Blockchain based crypto currency</h2>
         </article>
       </ Link>
-      <Link href="/projects/snake">
-        <article className={styles.tile}>
-          <h1>Snake Online</h1>
-          <h2>Classic game of snake playable online</h2>
-        </article>
-      </ Link>
-      <Link href="https://github.com/zbarnz?tab=repositories">
+      <Link href="https://github.com/zbarnz">
         <article className={styles.tile}>
           <h1>GitHub</h1>
-          <h2>Random GitHub projects</h2>
+          <h2>...Projects</h2>
         </article>
       </ Link>
     </section>

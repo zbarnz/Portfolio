@@ -8,12 +8,6 @@ const Layout = ({ children }) => {
     <div className={styles.body}>
       <Menu />
       <main>{children}</main>
-      {/* <div className={styles.menuPressedContainer}>
-        <ul>
-          <li>Home</li>
-          <li>About Me</li>
-        </ul>
-      </div> */}
       <SocialBar />
     </div>
   );

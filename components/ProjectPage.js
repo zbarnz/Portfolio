@@ -6,11 +6,6 @@ import Button from "./Button";
 import Image from "next/image";
 import Link from "next/link";
 
-import agendaOne from "../public/images/agenda/agenda1.png";
-import agendaTwo from "../public/images/agenda/agenda2.png";
-import agendaThree from "../public/images/agenda/agenda3.png";
-
-
 const ProjectPage = ({
   name,
   author,
@@ -61,7 +56,7 @@ const ProjectPage = ({
                 {cap2}</p>
             </ div>
             <div>
-              <Image src={img3} />
+              <Image src={img3}/>
               <p
                 className="legend"
                 style={{ backgroundColor: "var(--background)" }}

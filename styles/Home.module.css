@@ -9,7 +9,6 @@
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   margin-bottom: 2rem;
-
 }
 
 .headerContainer h1 {
@@ -46,4 +45,9 @@
   .headerContainer h2 {
     font-size: 4vw !important;
   }
+}
+
+.technologiesContainer {
+  border-bottom: 1px solid var(--secondary);
+  height: 20em;
 }
