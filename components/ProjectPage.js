@@ -65,26 +65,28 @@ const ProjectPage = ({
             </ div>
           </ Carousel>
         </section>
-        <section className={styles.textContainer}>
-          <article>
-            <h1>Name: </h1>
-            <p>{name}</p>
-          </article>
-          <article>
-            <h1>Author(s):</h1>
-            <p>{author}</p>
-          </article>
-          <article>
-            <h1>Technologies Used:</h1>
-            <p>{tech}</p>
-          </article>
+        <section>
+          <section className={styles.textContainer}>
+            <article>
+              <h1>Name: </h1>
+              <p>{name}</p>
+            </article>
+            <article>
+              <h1>Author(s):</h1>
+              <p>{author}</p>
+            </article>
+            <article>
+              <h1>Technologies Used:</h1>
+              <p>{tech}</p>
+            </article>
+          </section>
+          <a href={git} target="_blank" rel="noopener noreferrer">
+            <Button varient="secondary" text="GitHub" stretch="wide"/>
+          </a>
+          <a href={live} target="_blank" rel="noopener noreferrer">
+            <Button varient={isLive} text="Live Version" stretch="wide"/>
+          </a>
         </section>
-        <a href={git} target="_blank" rel="noopener noreferrer">
-          <Button varient="secondary" text="GitHub" stretch="wide"/>
-        </a>
-        <a href={live} target="_blank" rel="noopener noreferrer">
-          <Button varient={isLive} text="Live Version" stretch="wide"/>
-        </a>
       </div>
       <div className={styles.descriptionContainer}>
         <h1>Description: </h1>

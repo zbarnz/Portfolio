@@ -1,5 +1,6 @@
 .body{
-  background-color: var(--background);
+  max-width: 2400px;
+  margin: auto;
 }
 
 .menuPressedContainer {
