@@ -1,1 +1,1 @@
-www.socnet.org
+socnet.org
